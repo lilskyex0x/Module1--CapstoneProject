@@ -188,7 +188,7 @@ html {
   justify-content: center;
   padding: 16px;
   gap: 7px;
-  background-image: url(/Module1--CapstoneProject/img/1025341.png);
+  background-image: url(../img/1025341.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -215,7 +215,7 @@ html {
 .mainHeader {
   font-weight: 800;
   font-size: 33px;
-  background-image: url(/Module1--CapstoneProject/img/water.jpeg);
+  background-image: url(../img/water.jpeg);
   background-size: contain;
   background-clip: var(--grey);
   -webkit-background-clip: text;
@@ -258,7 +258,7 @@ html {
   align-items: center;
   padding: 16px;
   gap: 20px;
-  background: url(/Module1--CapstoneProject/img/pexels-photo-11196384.jpeg);
+  background: url(../img/pexels-photo-11196384.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
