@@ -78,7 +78,7 @@
 
 > You can see the deployed project here
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://lilskyex0x.github.io/Module1--CapstoneProject/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
