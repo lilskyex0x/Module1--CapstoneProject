@@ -1,27 +1,5 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
-
 <div align="center">
 
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
@@ -30,8 +8,6 @@ After you're finished please remove all the comments and instructions!
   <h3><b>Microverse README Template</b></h3>
 
 </div>
-
-<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
@@ -55,13 +31,11 @@ After you're finished please remove all the comments and instructions!
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
+# 📖 AlterTime: Mage Class Hall Event <a name="about-project"></a>
 
-# 📖 [your_project_name] <a name="about-project"></a>
+> Project Description  
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
+**AlterTime: Mage Class Hall Event** project is designed for video game event invitation purpose. Project theme is inspired by missive mmorpg game called World Of Warcraft.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -70,165 +44,100 @@ After you're finished please remove all the comments and instructions!
 > Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
-  <summary>Client</summary>
+  <summary>Markup Language</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://html.com/">HTML</a></li>
   </ul>
 </details>
 
 <details>
-  <summary>Server</summary>
+  <summary>Style</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
   </ul>
 </details>
 
 <details>
-<summary>Database</summary>
+<summary>Programming Language</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://www.javascript.com/">JavaScript</a></li>
   </ul>
 </details>
-
-<!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+> Key Feature for this project
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **Invitation for video game players**
+- **Game theme based**
+- **User friendly interface**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+> You can see the deployed project here
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://lilskyex0x.github.io/Module1--CapstoneProject/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
-
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+> Kindly check these step by step for setting up this project locally
 
-To get a local copy up and running, follow these steps.
+**Firstly, clone the repo to your local machine**
+**Then, change directory. run -> cd <repo name>**
+**open in the index file**
+**Go live with the live server**
 
 ### Prerequisites
 
 In order to run this project you need:
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
-
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
-
 ### Install
 
-Install this project with:
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
+Install this project with: Git
 
 ### Usage
 
-To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
+To run the project, execute the following command in terminal: Git clone [Project_link]/ git checkout master
 
 ### Run tests
 
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
+To run tests, run the following command: Right click on the index.html document then open with live server. Make sure live server extension is install in your text editor.
 
 ### Deployment
 
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
+You can deploy this project using: GitHub but if you want to deploy make sure you let me know first :3
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+> Main Author of this project
 
-👤 **Author1**
+👤 **Lilsnow**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@lilskyex0x](https://github.com/lilskyex0x)
+- Twitter: [@Aung_Pyae_Khant](https://twitter.com/LilSn0w45)
+- LinkedIn: [Aung_Pyae_Khant](https://linkedin.com/in/aung-pyae-khant-932342251)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+> Features I will add to the project later.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **Join page**
+- [ ] **Form**
+- [ ] **Class guides**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -238,43 +147,36 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
-
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
+> This is my solo capstone project deployment. I will try my best to make another projects epic
 
-If you like this project...
+If you like this project you can contact me on linkin, follow my Github and lets talk about what we could do better together ;3
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+> Credits
 
-I would like to thank...
+I would like to thank my friend for showing me how js codes should be done.
+I would like to give credit to layout design owner of this project [Cindy Shin in Behance](https://www.behance.net/adagio07)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
 
 ## ❓ FAQ <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
+> Questions for new developers who might ask for this project.
 
-- **[Question_1]**
+- **How did you make button effects?**
 
-  - [Answer_1]
+  - I watch youtube and learn obviously x3
 
-- **[Question_2]**
+- **why did you separate 2 html file and 2 css file?**
 
-  - [Answer_2]
+  - Because I don't want my code messy and I approched separate file type for clear readability.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 

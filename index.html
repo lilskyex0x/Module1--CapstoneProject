@@ -1,19 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>AlterTime: Mage Class Hall</title>
+
+    <!-- fontawesome Cdn Link 6.2.1 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 
     <!-- Custom css file link -->
     <link rel="stylesheet" href="css/style.css">
 
     <!-- Custom JS file link -->
     <script defer src="js/main.js"></script>
-    
 </head>
+
 <body>
-    
+    <!-- Navbar Section Starts here -->
+    <section id="navbar">
+        <nav class="sub__navbar">
+            <div class="socialIcon">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <div class="sub__navMenu">
+                <ul class="navLink">
+                    <li><a href="#">English</a></li>
+                    <li><a href="#">My Page</a></li>
+                    <li><a href="#">Logout</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav class="main__navbar">
+            <a href="#" class="logo"><img width="60" src="img/mage icon.png"
+                    alt="logo"></a>
+            <div class="main__navMenu">
+                <ul class="navLink">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#Program">Program</a></li>
+                    <li><a href="#Join">Join</a></li>
+                    <li><a href="#partner">Sponsor</a></li>
+                    <li><a href="#News">News</a></li>
+                    <li><button type="button" class="main__navBtn">AT campaign</button></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <!-- Navbar Section Ends here -->
+
+    <!-- Home Section Starts Here -->
+    <section id="Home">
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <header class="headerBanner">
+            <div class="banner">
+                <h3 class="subHeader">"Hello, Fellow Mages"</h3>
+                <h1 class="mainHeader">World Of Warcraft: Altered Time Mages' Class Hall Event</h1>
+                <p class="headerPara">
+                    A joyful celebration beliving in the value of openness and sharing, creating a positive changes with
+                    Mages from World of Warcraft is taking place in October, in the Violet Citadel.
+                </p>
+            </div>
+            <div class="placeNdate">
+                <h3 class="dateTag">2022.10.15(THU) - 16(FRI)</h3>
+                <p class="datePara">@ the upper levels of the Violet Citadel, Tirisgarde and more</p>
+            </div>
+        </header>
+    </section>
+    <!-- Home Section Ends Here -->
+
+    <!-- Program Section Starts here -->
+    <section id="Program" class="program">
+        <h3 class="programTitle">Main Program</h3>
+        <div class="programList">
+            <div class="programCard fire">
+                <span><i class="fa-sharp fa-solid fa-fire"></i></span>
+                <h4>Fire Mage discussion</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, possimus.</p>
+            </div>
+            <div class="programCard frost">
+                <span><i class="fa-sharp fa-solid fa-snowflake"></i></span>
+                <h4>Frost Mage discussion</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, possimus.</p>
+            </div>
+            <div class="programCard arcane">
+                <span><i class="fa-sharp fa-solid fa-eye"></i></span>
+                <h4>Arcane Mage discussion</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, possimus.</p>
+            </div>
+            <div class="programCard duel">
+                <span><i class="fa-sharp fa-solid fa-wand-sparkles"></i></span>
+                <h4>Mage Duel tournament</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, possimus.</p>
+            </div>
+            <div class="programCard learn">
+                <span><i class="fa-sharp fa-solid fa-scroll"></i></span>
+                <h4>Profession for Mage</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, possimus.</p>
+            </div>
+        </div>
+        <button type="button" class="programBtn">Join AT Mages' Event 2022</button>
+        <a href="#">See the whole Program</a>
+    </section>
+    <!-- Program Section Ends here -->
+
+    <!-- Feature Speaker Section Starts Here  -->
+    <section id="speaker">
+        <article class="wrapper">
+            <h3 class="speakerTitle">Featured Speakers</h3>
+            <div id="speakerCards">
+                <!-- Inserted Dynamically -->
+            </div>
+            <a class="more" href="#Speaker"><button type="button"><span>More</span><i
+                        class="fa-sharp fa-solid fa-chevron-down"></i></button></a>
+            <a class="close" href="#Speaker"><button type="button"><span>Close</span><i
+                        class="fa-sharp fa-solid fa-chevron-up"></i></button></a>
+        </article>
+    </section>
+    <!-- Feature Speaker Section Ends Here  -->
+
+    <!-- Partner Section Starts Here -->
+    <section id="partner">
+        <h3 class="partnerTitle">Partner</h3>
+        <div class="partnerIcons">
+            <a href="https://www.adidas.com/us" target="_blank" rel="noopener noreferrer"><img src="img/partner/adidas-svgrepo-com.svg" alt="Adidas"></a>
+            <a href="https://www.airbnb.com/" target="_blank" rel="noopener noreferrer"><img src="img/partner/airbnb-2-logo-svgrepo-com.svg" alt="AirBnb"></a>
+            <a href="https://www.blizzard.com/en-us/" target="_blank" rel="noopener noreferrer"><img src="img/partner/blizzard-svgrepo-com.svg" alt="Blizzard"></a>
+            <a href="https://www.corsair.com/ww/en/" target="_blank" rel="noopener noreferrer"><img src="img/partner/corsair-svgrepo-com.svg" alt="Corsair"></a>
+            <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer"><img src="img/partner/google-svgrepo-com.svg" alt="Google"></a>
+        </div>
+    </section>
+    <!-- Partner Section Ends Here -->
+
+    <!-- footer Section Starts Here -->
+    <footer id="copyright">
+        <div class="crWrapper">
+            <div class="wowlogo">
+                <a href="#"><img width="100" src="img/world-of-warcraft.png" alt="WoWlogo"></a>
+                <div class="logoText">
+                    <h5>Altertime:</h5>
+                    <h5>Mage Class Hall</h5>
+                </div>
+            </div>
+            <div class="crText">
+                <h5><i class="fa-sharp fa-solid fa-copyright"></i>2022 Altertime: Mage Class Hall, Some rights Reserved.</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid rerum voluptates, ab alias aspernatur autem quod ipsa saepe!</p>
+            </div>
+        </div>
+    </footer>
+    <!-- footer Section Ends Here -->
 </body>
+
 </html>
