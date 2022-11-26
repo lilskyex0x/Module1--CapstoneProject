@@ -212,7 +212,6 @@ html {
 /* -----------------------------About banner Section Starts---------------------------------------------- */
 
 .headerBanner {
-  height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -424,9 +423,15 @@ html {
 
 .partnerIcons {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 30px;
+}
+
+.partnerIcons a {
+  display: flex;
+  justify-content: center;
+  width: 90px;
 }
 
 .partnerIcons a img {
