@@ -122,6 +122,12 @@ html {
   transition: 0.5s ease;
 }
 
+.partnerIcons a {
+  display: flex;
+  justify-content: center;
+  width: 90px;
+}
+
 .sub__navMenu ul li a {
   color: #fff;
   transition: 0.3s;
@@ -426,12 +432,6 @@ html {
   justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
-}
-
-.partnerIcons a {
-  display: flex;
-  justify-content: center;
-  width: 90px;
 }
 
 .partnerIcons a img {
